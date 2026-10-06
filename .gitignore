@@ -1,0 +1,10 @@
+# Personligt och tredjepartsdata – stannar lokalt
+data/mina_val.json
+data/backups/
+data/rapporter.json
+data/radata/
+static/rapporter/
+__pycache__/
+.pytest_cache/
+.claude/
+.DS_Store

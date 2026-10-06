@@ -1,0 +1,22 @@
+# Allt körs lokalt: servern lyssnar bara på din egen dator och ingen telemetri skickas.
+
+[server]
+address = "localhost"
+port = 8502              # kursappen använder 8501
+headless = true          # start.command öppnar webbläsaren själv
+runOnSave = true
+enableStaticServing = true   # static/ = kartunderlag och nedladdade utbytesrapporter
+
+[browser]
+gatherUsageStats = false
+serverAddress = "localhost"
+
+[client]
+toolbarMode = "minimal"
+
+# Följer datorns ljusa/mörka läge (kan ändras i appens meny uppe till höger).
+[theme.light]
+primaryColor = "#2a78d6"
+
+[theme.dark]
+primaryColor = "#3987e5"
